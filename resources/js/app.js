@@ -9,7 +9,7 @@ Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 const router = new VueRouter({
     mode: 'history',
     routes: [
-        { path: '/', component: require('./components/list.vue'), name: 'list' }, // ルートでアクセスしたら、List.vueを表示
+        { path: '/', component: require('./components/List.vue'), name: 'list' }, // ルートでアクセスしたら、List.vueを表示
         { path: '/create', component: require('./components/Form.vue'), name: 'create' }, // createにアクセスしたらForm.vueを表示
         { path: '/:id', component: require('./components/Detail.vue'), name: 'detail' }, // id番号でアクセスしたらDetail.vueを表示
     ]
