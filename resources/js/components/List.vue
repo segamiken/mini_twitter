@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div class="list-group">
-      List.vue
       <router-link v-for="( item, key, index ) in items" :key="key" :to="{ name: 'detail', params: { id: item.id } }" class="list-group-item">
         {{item.title}}
         <button class="btn" @click.stop.prevent="onDelete(item.id, key)">削除</button>
