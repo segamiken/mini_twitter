@@ -12,10 +12,6 @@
 <body>
     <div id="app">
         <navbar></navbar>
-        <div id="nav">
-          <router-link to="/">List</router-link> |
-          <router-link to="/create">Form</router-link>
-        </div>
         <router-view/>
       </div>
 <script src="{{mix('js/app.js')}}"></script>

@@ -13,7 +13,7 @@ export default new Router({
     },
     {
         path: '/create',
-        name: 'form',
+        name: 'create',
         component: Form
     },
     {

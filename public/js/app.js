@@ -35772,7 +35772,7 @@ Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]); // Vue.jsで、Vue 
 // });
 // Vueのコンポーネント
 
-Vue.component('navbar', __webpack_require__(/*! ./components/Navbar.vue */ "./resources/js/components/Navbar.vue")); //ページ上部にメニューバーを表示させたいので、Navbar.vueを登録
+Vue.component('navbar', __webpack_require__(/*! ./components/Navbar.vue */ "./resources/js/components/Navbar.vue")["default"]); //ページ上部にメニューバーを表示させたいので、Navbar.vueを登録
 // Vue.jsの実行
 // const app = new Vue({
 //     router
@@ -36121,7 +36121,7 @@ __webpack_require__.r(__webpack_exports__);
     component: _components_List_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }, {
     path: '/create',
-    name: 'form',
+    name: 'create',
     component: _components_Form_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }, {
     path: '/:id',

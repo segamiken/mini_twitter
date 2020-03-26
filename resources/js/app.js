@@ -18,7 +18,7 @@ Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 // });
 
 // Vueのコンポーネント
-Vue.component('navbar', require('./components/Navbar.vue')); //ページ上部にメニューバーを表示させたいので、Navbar.vueを登録
+Vue.component('navbar', require('./components/Navbar.vue').default); //ページ上部にメニューバーを表示させたいので、Navbar.vueを登録
 
 
 // Vue.jsの実行
