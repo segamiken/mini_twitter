@@ -1,6 +1,7 @@
 import Router from 'vue-router'
 import List from './components/List.vue'
 import Form from './components/Form.vue'
+import Detail from './components/Detail.vue'
 
 export default new Router({
   mode: 'history',
@@ -15,5 +16,11 @@ export default new Router({
         name: 'form',
         component: Form
     },
+    {
+      path: '/:id',
+      name: 'detail',
+      component: Detail
+    }
+
   ]
 });
