@@ -55,7 +55,7 @@ export default {
             .then( (res) => {
                 this.editFlg = false;
                 this.updated = true;
-                console.log('update')
+                console.log('update');
             });
         }
     }
